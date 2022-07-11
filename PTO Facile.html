@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+    <html>
+       <head>
+          <title>PTO Facile!</title>
+      </head>
+      
+        <div>_____</div>
+      <body>
+      EUIPO <input type="text" name="euiponr" id="euiponr"><br>
+        <a href="https://euipo.europa.eu/eSearch/#details/trademarks/" id="linkeuipo">Go</a>
+        <body>
+         <!-- This is how to include the Javascript code directly to your HTML -->
+      <script>
+          var input = document.getElementById("euiponr");
+
+          //this function gets called whenever the text in the text box changes
+          input.oninput = function() {
+            var link = document.getElementById("linkeuipo");
+            //here, this.value is the value of the input "usanr"
+            link.href = "https://euipo.europa.eu/eSearch/#details/trademarks/" + this.value;
+          }
+      </script>
+      <div>_____</div>
+      <body>
+          RUSS <input type="text" name="flowname" id="flowname"><br>
+        <a href="http://www.fips.ru/cdfi/fips.dll?ty=29&docid=" id="link">Go</a>
+      </body>
+      <!-- This is how to include the Javascript code directly to your HTML -->
+      <script>
+          var input = document.getElementById("flowname");
+
+          //this function gets called whenever the text in the text box changes
+          input.oninput = function() {
+            var link = document.getElementById("link");
+            //here, this.value is the value of the input "flowname"
+            link.href = "http://www.fips.ru/cdfi/fips.dll?ty=29&docid=" + this.value + "&ki=TM&cy=RU";
+          }
+      </script>
+      
+      <div>_____</div>
+      <body>
+      SKOR <input type="text" name="skornr" id="skornr"><br>
+        <a href="http://link.kipris.or.kr/link/main/Biblio.jsp?reg_key=5BpjNrtjRsaQhyqmZ30AmQ%3D%3D&APPLNO=" id="linkskor">Go</a>
+        <body>
+         <!-- This is how to include the Javascript code directly to your HTML -->
+      <script>
+          var input = document.getElementById("skornr");
+
+          //this function gets called whenever the text in the text box changes
+          input.oninput = function() {
+            var link = document.getElementById("linkskor");
+            //here, this.value is the value of the input "skornr"
+            link.href = "http://link.kipris.or.kr/link/main/Biblio.jsp?reg_key=5BpjNrtjRsaQhyqmZ30AmQ%3D%3D&APPLNO=" + this.value;
+          }
+      </script>
+      
+      <div>_____</div>
+      <body>
+      UKRA <input type="text" name="ukranr" id="ukranr"><br>
+        <a href="https://sis.ukrpatent.org/en/search/simple/?form-TOTAL_FORMS=1&form-INITIAL_FORMS=1&form-MAX_NUM_FORMS=&form-0-param_type=1&form-0-value=" id="linkukra">Go</a>
+        <body>
+         <!-- This is how to include the Javascript code directly to your HTML -->
+      <script>
+          var input = document.getElementById("ukranr");
+
+          //this function gets called whenever the text in the text box changes
+          input.oninput = function() {
+            var link = document.getElementById("linkukra");
+            //here, this.value is the value of the input "ukranr"
+            link.href = "https://sis.ukrpatent.org/en/search/simple/?form-TOTAL_FORMS=1&form-INITIAL_FORMS=1&form-MAX_NUM_FORMS=&form-0-param_type=1&form-0-value=" + this.value + "#!";
+          }
+      </script>
+      
+      <div>_____</div>
+      <body>
+      USA <input type="text" name="usanr" id="usanr"><br>
+        <a href="https://tsdr.uspto.gov/#caseNumber=" id="linkusa">Go</a>
+        <body>
+         <!-- This is how to include the Javascript code directly to your HTML -->
+      <script>
+          var input = document.getElementById("usanr");
+
+          //this function gets called whenever the text in the text box changes
+          input.oninput = function() {
+            var link = document.getElementById("linkusa");
+            //here, this.value is the value of the input "usanr"
+            link.href = "https://tsdr.uspto.gov/#caseNumber=" + this.value + "&caseSearchType=US_APPLICATION&caseType=DEFAULT&searchType=statusSearch";
+          }
+      </script>
+      
+      </body>
+      
+   
+      
+   </html>
