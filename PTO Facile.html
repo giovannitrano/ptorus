@@ -1,41 +1,156 @@
-<head>
+<html>
+       <head>
           <title>PTO Facile!</title>
       </head>
-      <div style="text-align: center"><b><u><div style="color: #0080c0">PTO Facile! </div></u></b> <p style="font-size:50px">&#127770;</p> </div> 
+      <div style="text-align: center"><b><u><div style="color: #0080c0">PTO Facile!</div></u></b> <p style="font-size:50px">&#127770;</p> </div> 
+      <div style="text-align: center">Please follow the number format in the examples and click the scroll button. <br> The results will open in a new tab. Enjoy! <br><br> New: ALBA, BENE, BRAZ, BULG, CAMB, CANA, <br> CORI, COLO, DENM, GBRI, ISRA, OSTE, PHIL, POLA, THAI, TURK</div>
       <body>
-
+<br>
 <table style="border-collapse: collapse; width: 100%;" border="0">
 <tbody>
 <tr>
-<td style="width: 25%;">
-
-      <b>AUST</b> <input type="text" name="austnr" id="austnr"><br>
-        <a href="https://search.ipaustralia.gov.au/trademarks/search/view/" id="linkaust">Go</a> <i>ex: 2196220</i>
+<td style="width: 25%;"><b>ALBA <i>(test)</i></b> <input type="text" name="ALBAnr" id="ALBAnr"><br>
+        <a href="http://regjistriobjektevepi.dppi.gov.al/wopublish-search/public/trademarks?lang=en&query=" id="linkALBA">Go</a> <i>ex: AL/T/2022/<u>000166</u></i> <- 5 numbers in the last part <br> (code 210 on pub)
          <!-- This is how to include the Javascript code directly to your HTML -->
       <script>
-          var input = document.getElementById("austnr");
+          var input = document.getElementById("ALBAnr");
 
           //this function gets called whenever the text in the text box changes
           input.oninput = function() {
-            var link = document.getElementById("linkaust");
-            //here, this.value is the value of the input "austnr"
+            var link = document.getElementById("linkALBA");
+            //here, this.value is the value of the input "ALBAnr"
+            link.href = "http://regjistriobjektevepi.dppi.gov.al/wopublish-search/public/trademarks?lang=en&query=" + this.value;
+          }
+      </script></td>
+<td style="width: 25%;"><b>AUST</b> <input type="text" name="AUSTnr" id="AUSTnr"><br>
+        <a href="https://search.ipaustralia.gov.au/trademarks/search/view/" id="linkAUST">Go</a> <i>ex: 2196220</i>
+         <!-- This is how to include the Javascript code directly to your HTML -->
+      <script>
+          var input = document.getElementById("AUSTnr");
+
+          //this function gets called whenever the text in the text box changes
+          input.oninput = function() {
+            var link = document.getElementById("linkAUST");
+            //here, this.value is the value of the input "AUSTnr"
             link.href = "https://search.ipaustralia.gov.au/trademarks/search/view/" + this.value;
           }
       </script></td>
-<td style="width: 25%;"><b>CTM</b> <input type="text" name="euiponr" id="euiponr"><br>
-        <a href="https://euipo.europa.eu/eSearch/#details/trademarks/" id="linkeuipo">Go</a> <i>ex: 018449636</i>
+<td style="width: 25%;"><b>BENE</b> <input type="text" name="BENEnr" id="BENEnr"><br>
+        <a href="https://www.boip.int/en/trademarks-register?app=%2Fitem%2Fbx" id="linkBENE">Go</a> <i>ex: 1457447</i>
          <!-- This is how to include the Javascript code directly to your HTML -->
       <script>
-          var input = document.getElementById("euiponr");
+          var input = document.getElementById("BENEnr");
 
           //this function gets called whenever the text in the text box changes
           input.oninput = function() {
-            var link = document.getElementById("linkeuipo");
+            var link = document.getElementById("linkBENE");
+            //here, this.value is the value of the input "BENEnr"
+            link.href = "https://www.boip.int/en/trademarks-register?app=%2Fitem%2Fbx" + this.value;
+          }
+      </script>      	</td>
+<td style="width: 25%;"><b>BRAZ</b> <input type="text" name="BRAZnr" id="BRAZnr"><br>
+        <a href="https://busca.inpi.gov.br/pePI/servlet/MarcasServletController?Action=searchMarca&tipoPesquisa=BY_NUM_PROC&Source=OAMI&NumPedido=" id="linkBRAZ">Go</a> <i>ex: 920048943</i>
+         <!-- This is how to include the Javascript code directly to your HTML -->
+      <script>
+          var input = document.getElementById("BRAZnr");
+
+          //this function gets called whenever the text in the text box changes
+          input.oninput = function() {
+            var link = document.getElementById("linkBRAZ");
+            //here, this.value is the value of the input "BRAZnr"
+            link.href = "https://busca.inpi.gov.br/pePI/servlet/MarcasServletController?Action=searchMarca&tipoPesquisa=BY_NUM_PROC&Source=OAMI&NumPedido=" + this.value;
+          }
+      </script>       	</td>
+</tr>
+<tr>
+<td style="width: 25%;"><div>_____</div>
+      <b>BULG</b> <input type="text" name="BULGnr" id="BULGnr"><br>
+        <a href="https://portal.bpo.bg/en/rd?key=" id="linkBULG">Go</a> <i>ex: 2022165778N</i>
+         <!-- This is how to include the Javascript code directly to your HTML -->
+      <script>
+          var input = document.getElementById("BULGnr");
+
+          //this function gets called whenever the text in the text box changes
+          input.oninput = function() {
+            var link = document.getElementById("linkBULG");
+            //here, this.value is the value of the input "BULGnr"
+            link.href = "https://portal.bpo.bg/en/rd?key=" + this.value;
+          }
+      </script>   </td>
+<td style="width: 25%;"><div>_____</div>
+      <b>CAMB</b> <input type="text" name="CAMBnr" id="CAMBnr"><br>
+        <a href="http://www.cambodiaip.gov.kh/wopublish-search/public/detail/trademarks?id=KH" id="linkCAMB">Go</a> <i>ex: 9904421</i> 
+        <br> (code 1 on pub)
+      <script>
+          var input = document.getElementById("CAMBnr");
+
+          //this function gets called whenever the text in the text box changes
+          input.oninput = function() {
+            var link = document.getElementById("linkCAMB");
+            //here, this.value is the value of the input "CAMBnr"
+            link.href = "http://www.cambodiaip.gov.kh/wopublish-search/public/detail/trademarks?id=KH" + this.value;
+          }
+      </script>   </td>
+<td style="width: 25%;"><div>_____</div>
+      <b>CANA</b> <input type="text" name="CANAnr" id="CANAnr"><br>
+        <a href="https://www.ic.gc.ca/app/opic-cipo/trdmrks/srch/viewTrademark.html?id=" id="linkCANA">Go</a> <i>ex: 2195857</i>
+         <!-- This is how to include the Javascript code directly to your HTML -->
+      <script>
+          var input = document.getElementById("CANAnr");
+
+          //this function gets called whenever the text in the text box changes
+          input.oninput = function() {
+            var link = document.getElementById("linkCANA");
+            //here, this.value is the value of the input "CANAnr"
+            link.href = "https://www.ic.gc.ca/app/opic-cipo/trdmrks/srch/viewTrademark.html?id=" + this.value + "&lang=eng&status=&appKey=" + this.value + "-00&startingDocumentIndexOnPage=1";
+          }
+      </script>  </td>
+<td style="width: 25%;"><div>_____</div>
+      <b>COLO</b> <input type="text" name="COLOnr" id="COLOnr"><br>
+        <a href="http://visordocs.sic.gov.co:8080/consultaDocs/markViewer.jsf?application=" id="linkCOLO">Go</a> <i>ex: SD2022/0037408</i>
+         <!-- This is how to include the Javascript code directly to your HTML -->
+      <script>
+          var input = document.getElementById("COLOnr");
+
+          //this function gets called whenever the text in the text box changes
+          input.oninput = function() {
+            var link = document.getElementById("linkCOLO");
+            //here, this.value is the value of the input "COLOnr"
+            link.href = "http://visordocs.sic.gov.co:8080/consultaDocs/markViewer.jsf?application=" + this.value;
+          }
+      </script>  </td>
+</tr>
+<tr>
+<td style="width: 25%;"><div>_____</div>
+      <b>CORI</b> <input type="text" name="CORInr" id="CORInr"><br>
+        <a href="https://branddb.wipo.int/branddb/en/showData.jsp?ID=CRTM." id="linkCORI">Go</a> <i>ex: 2022-002889</i>
+         <!-- This is how to include the Javascript code directly to your HTML -->
+      <script>
+          var input = document.getElementById("CORInr");
+
+          //this function gets called whenever the text in the text box changes
+          input.oninput = function() {
+            var link = document.getElementById("linkCORI");
+            //here, this.value is the value of the input "CORInr"
+            link.href = "https://branddb.wipo.int/branddb/en/showData.jsp?ID=CRTM." + this.value;
+          }
+      </script> </td>
+<td style="width: 25%;"><div>_____</div>
+      <b>CTM</b> <input type="text" name="CTMnr" id="CTMnr"><br>
+        <a href="https://euipo.europa.eu/eSearch/#details/trademarks/" id="linkCTM">Go</a> <i>ex: 018449636</i>
+         <!-- This is how to include the Javascript code directly to your HTML -->
+      <script>
+          var input = document.getElementById("CTMnr");
+
+          //this function gets called whenever the text in the text box changes
+          input.oninput = function() {
+            var link = document.getElementById("linkCTM");
             //here, this.value is the value of the input "usanr"
             link.href = "https://euipo.europa.eu/eSearch/#details/trademarks/" + this.value;
           }
       </script></td>
-<td style="width: 25%;"><b>CROA</b> <input type="text" name="CROAnr" id="CROAnr"><br>
+<td style="width: 25%;"><div>_____</div>
+      <b>CROA</b> <input type="text" name="CROAnr" id="CROAnr"><br>
         <a href="http://it-app.dziv.hr/Pretrage/en/z/Detaljno.aspx/" id="linkCROA">Go</a> <i>ex: Z20210281</i> or <i>Z20210281A</i> <br> (code 210 on pub)
          <!-- This is how to include the Javascript code directly to your HTML -->
       <script>
@@ -48,7 +163,8 @@
             link.href = "http://it-app.dziv.hr/Pretrage/en/z/Detaljno.aspx/" + this.value;
           }
       </script></td>
-<td style="width: 25%;"><b>CZRE</b> <input type="text" name="CZREnr" id="CZREnr"><br>
+<td style="width: 25%;"><div>_____</div>
+      <b>CZRE</b> <input type="text" name="CZREnr" id="CZREnr"><br>
         <a href="https://isdv.upv.cz/webapp/resdb.print_detail.det?pspis=OZ/" id="linkCZRE">Go</a> <i>ex: 160920</i>
          <!-- This is how to include the Javascript code directly to your HTML -->
       <script>
@@ -64,7 +180,21 @@
 </tr>
 <tr>
 <td style="width: 25%;"><div>_____</div>
-  <b>ESTO</b> <input type="text" name="ESTOnr" id="ESTOnr"><br>
+      <b>DENM</b> <input type="text" name="DENMnr" id="DENMnr"><br>
+        <a href="https://onlineweb.dkpto.dk/pvsonline/Varemaerke?action=109&sagID=" id="linkDENM">Go</a> <i>ex: VA 2021 01784</i> <br>(works only with VA trademarks)
+         <!-- This is how to include the Javascript code directly to your HTML -->
+      <script>
+          var input = document.getElementById("DENMnr");
+
+          //this function gets called whenever the text in the text box changes
+          input.oninput = function() {
+            var link = document.getElementById("linkDENM");
+            //here, this.value is the value of the input "DENMnr"
+            link.href = "https://onlineweb.dkpto.dk/pvsonline/Varemaerke?action=109&sagID=" + encodeURIComponent(this.value);
+          }
+      </script>   </td>
+<td style="width: 25%;"><div>_____</div>
+      <b>ESTO</b> <input type="text" name="ESTOnr" id="ESTOnr"><br>
         <a href="https://andmebaas.epa.ee/avalik/#/trademarks?nr=" id="linkESTO">Go</a> <i>ex: M202000121</i>
          <!-- This is how to include the Javascript code directly to your HTML -->
       <script>
@@ -78,7 +208,6 @@
           }
       </script></td>
 <td style="width: 25%;"><div>_____</div>
-
       <b>FINL</b> <input type="text" name="FINLnr" id="FINLnr"><br>
         <a href="https://tavaramerkkitietopalvelu.prh.fi/en/trademark/" id="linkFINL">Go</a> <i>ex: T202151419</i>
          <!-- This is how to include the Javascript code directly to your HTML -->
@@ -93,7 +222,6 @@
           }
       </script></td>
 <td style="width: 25%;"><div>_____</div>
-
       <b>FRAN</b> <input type="text" name="FRANnr" id="FRANnr"><br>
         <a href="https://data.inpi.fr/marques/FR" id="linkFRAN">GO</a> <i>ex: 4876607</i>  
          <!-- This is how to include the Javascript code directly to your HTML -->
@@ -107,8 +235,23 @@
             link.href = "https://data.inpi.fr/marques/FR" + this.value;
           }
       </script></td>
+</tr>
+<tr>
 <td style="width: 25%;"><div>_____</div>
+      <b>GBRI</b> <input type="text" name="GBRInr" id="GBRInr"><br>
+        <a href="http://www.ipo.gov.uk/tmcase/Results/1/UK0000" id="linkGBRI">GO</a> <i>ex: 3760597</i>  
+         <!-- This is how to include the Javascript code directly to your HTML -->
+      <script>
+          var input = document.getElementById("GBRInr");
 
+          //this function gets called whenever the text in the text box changes
+          input.oninput = function() {
+            var link = document.getElementById("linkGBRI");
+            //here, this.value is the value of the input "GBRInr"
+            link.href = "http://www.ipo.gov.uk/tmcase/Results/1/UK0000" + this.value;
+          }
+      </script></td>
+<td style="width: 25%;"><div>_____</div>
       <b>GREC</b> <input type="text" name="grecnr" id="grecnr"><br>
         <a href="https://des.mindev.gov.gr/home/trademarkpublications?text=" id="linkgrec">Go</a> <i>ex: 258388</i>
          <!-- This is how to include the Javascript code directly to your HTML -->
@@ -122,10 +265,7 @@
             link.href = "https://des.mindev.gov.gr/home/trademarkpublications?text=" + this.value;
           }
       </script></td>
-</tr>
-<tr>
 <td style="width: 25%;"><div>_____</div>
-
       <b>HUNG</b> <input type="text" name="hungnr" id="hungnr"><br>
         <a href="http://epub.hpo.hu/e-kutatas/index.html?lang=EN&service=ADATLAP&appId=" id="linkhung">Go</a> <i>ex: M1900259</i>
          <!-- This is how to include the Javascript code directly to your HTML -->
@@ -140,7 +280,6 @@
           }
       </script></td>
 <td style="width: 25%;"><div>_____</div>
-
       <b>ICEL</b> <input type="text" name="ICELnr" id="ICELnr"><br>
         <a href="https://www.hugverk.is/en/leit/trademark/" id="linkICEL">Go</a> <i>ex: V0125210</i>
          <!-- This is how to include the Javascript code directly to your HTML -->
@@ -154,8 +293,9 @@
             link.href = "https://www.hugverk.is/en/leit/trademark/" + this.value;
           }
       </script></td>
+</tr>
+<tr>
 <td style="width: 25%;"><div>_____</div>
-
       <b>INDO</b> <input type="text" name="INDOnr" id="INDOnr"><br>
         <a href="https://pdki-indonesia.dgip.go.id/search?type=trademark&keyword=" id="linkINDO">Go</a> <i>ex: DID2021082766</i>
          <!-- This is how to include the Javascript code directly to your HTML -->
@@ -170,7 +310,6 @@
           }
       </script></td>
 <td style="width: 25%;"><div>_____</div>
-
       <b>INTE</b> <input type="text" name="INTEnr" id="INTEnr"><br>
         <a href="https://www3.wipo.int/madrid/monitor/en/showData.jsp?ID=ROM." id="linkINTE">Go</a> <i>ex: 1648202</i>
          <!-- This is how to include the Javascript code directly to your HTML -->
@@ -184,10 +323,7 @@
             link.href = "https://www3.wipo.int/madrid/monitor/en/showData.jsp?ID=ROM." + this.value;
           }
       </script></td>
-</tr>
-<tr>
 <td style="width: 25%;"><div>_____</div>
-
       <b>IREL</b> <input type="text" name="IRELnr" id="IRELnr"><br>
         <a href="https://eregister.ipoi.gov.ie/register/TMRegister.aspx?idappli=" id="linkIREL">Go</a> <i>ex: 266833</i>
          <!-- This is how to include the Javascript code directly to your HTML -->
@@ -202,7 +338,22 @@
           }
       </script></td>
 <td style="width: 25%;"><div>_____</div>
+      <b>ISRA</b> <input type="text" name="ISRAnr" id="ISRAnr"><br>
+        <a href="https://www.trademarks.justice.gov.il/TradeMarkSearch/ReportView?TMCaseNo=" id="linkISRA">Go</a> <i>ex: 340630</i>
+         <!-- This is how to include the Javascript code directly to your HTML -->
+      <script>
+          var input = document.getElementById("ISRAnr");
 
+          //this function gets called whenever the text in the text box changes
+          input.oninput = function() {
+            var link = document.getElementById("linkISRA");
+            //here, this.value is the value of the input "ISRAnr"
+            link.href = "https://www.trademarks.justice.gov.il/TradeMarkSearch/ReportView?TMCaseNo=" + this.value;
+          }
+      </script></td>
+</tr>
+<tr>
+<td style="width: 25%;"><div>_____</div>
       <b>LAOS</b> <input type="text" name="LAOSnr" id="LAOSnr"><br>
         <a href="https://online.dip.gov.la/wopublish-search/public/detail/trademarks;jsessionid=73CD830FD7E90E2B5E00251C1C702BBC?id=LA" id="linkLAOS">Go</a> <i>ex: 46676</i>
          <!-- This is how to include the Javascript code directly to your HTML -->
@@ -217,7 +368,6 @@
           }
       </script></td>
 <td style="width: 25%;"><div>_____</div>
-
       <b>LATV</b> <input type="text" name="LATVnr" id="LATVnr"><br>
         <a href="http://databases.lrpv.gov.lv/trademark/" id="linkLATV">Go</a> <i>ex: M-09-251</i>
          <!-- This is how to include the Javascript code directly to your HTML -->
@@ -230,9 +380,8 @@
             //here, this.value is the value of the input "LATVnr"
             link.href = "http://databases.lrpv.gov.lv/trademark/" + this.value;
           }
-      </script></td>
-<td style="width: 25%;"><div>_____</div>
-      
+      </script>     </td>
+<td style="width: 25%;"><div>_____</div>    
           <b>NORW</b> <input type="text" name="norwnr" id="norwnr"><br>
         <a href="https://search.patentstyret.no/advanced/#/trademark?size=50&rns.rni=" id="linknorw">Go</a> <i>ex: 1220998</i> or <i>202207184</i> 
       <!-- This is how to include the Javascript code directly to your HTML -->
@@ -246,10 +395,54 @@
             link.href = "https://search.patentstyret.no/advanced/#/trademark?size=50&rns.rni=" + this.value + "&rns.mar=true&rns.man=true";
           }
       </script></td>
+<td style="width: 25%;"><div>_____</div>    
+          <b>OSTE<i></i></b>
+      	<input type="text" name="OSTEnr" id="OSTEnr"><br>
+        <a href="http://seeip.patentamt.at/Marke/Details/" id="linkOSTE">Go</a> <i>ex: 21035/2022</i>
+      <!-- This is how to include the Javascript code directly to your HTML -->
+      <script>
+          var input = document.getElementById("OSTEnr");
+
+          //this function gets called whenever the text in the text box changes
+          input.oninput = function() {
+            var link = document.getElementById("linkOSTE");
+            //here, this.value is the value of the input "OSTEnr"
+            link.href = "http://seeip.patentamt.at/Marke/Details/" + this.value;
+          }
+      </script></td>
 </tr>
 <tr>
-<td style="width: 25%;"><div>_____</div>
+<td style="width: 25%;"><div>_____</div>    
+          <b>PHIL <i></i></b>
+      	<input type="text" name="PHILnr" id="PHILnr"><br>
+        <a href="https://branddb.wipo.int/branddb/ph/en/showData.jsp?ID=PHTM.420" id="linkPHIL">Go</a> <i>ex: 22513136</i>
+      <!-- This is how to include the Javascript code directly to your HTML -->
+      <script>
+          var input = document.getElementById("PHILnr");
 
+          //this function gets called whenever the text in the text box changes
+          input.oninput = function() {
+            var link = document.getElementById("linkPHIL");
+            //here, this.value is the value of the input "PHILnr"
+            link.href = "https://branddb.wipo.int/branddb/ph/en/showData.jsp?ID=PHTM.420" + this.value;
+          }
+      </script></td>
+<td style="width: 25%;"><div>_____</div>    
+          <b>POLA <i></i></b>
+      	<input type="text" name="POLAnr" id="POLAnr"><br>
+        <a href="https://ewyszukiwarka.pue.uprp.gov.pl/search/pwp-details/Z." id="linkPOLA">Go</a> <i>ex: 425850</i>
+      <!-- This is how to include the Javascript code directly to your HTML -->
+      <script>
+          var input = document.getElementById("POLAnr");
+
+          //this function gets called whenever the text in the text box changes
+          input.oninput = function() {
+            var link = document.getElementById("linkPOLA");
+            //here, this.value is the value of the input "POLAnr"
+            link.href = "https://ewyszukiwarka.pue.uprp.gov.pl/search/pwp-details/Z." + this.value + "?lng=en";
+          }
+      </script></td>
+<td style="width: 25%;"><div>_____</div>
       <b>PORT</b> <input type="text" name="PORTnr" id="PORTnr"><br>
         <a href="https://servicosonline.inpi.justica.gov.pt/pesquisas/main/marcasdirecto.jsp?appnumber=" id="linkPORT">Go</a> <i>ex: 561822</i>
          <!-- This is how to include the Javascript code directly to your HTML -->
@@ -263,8 +456,23 @@
             link.href = "https://servicosonline.inpi.justica.gov.pt/pesquisas/main/marcasdirecto.jsp?appnumber=" + this.value;
           }
       </script></td>
-<td style="width: 25%;"><div>_____</div>
-      
+<td style="width: 25%;"><div>_____</div>     	
+      	<b>ROMA</b> <input type="text" name="ROMAnr" id="ROMAnr"><br>
+        <a href="https://api.osim.ro:8443/tm-registry/detail/extrademark.htm?extidappli=" id="linkROMA">Go</a> <i>ex: M 2015 04541</i>
+         <!-- This is how to include the Javascript code directly to your HTML -->
+      <script>
+          var input = document.getElementById("ROMAnr");
+
+          //this function gets called whenever the text in the text box changes
+          input.oninput = function() {
+            var link = document.getElementById("linkROMA");
+            //here, this.value is the value of the input "ROMAnr"
+            link.href = "https://api.osim.ro:8443/tm-registry/detail/extrademark.htm?extidappli=" + encodeURIComponent(this.value);
+          }
+      </script> </td>
+</tr>
+<tr>
+<td style="width: 25%;"><div>_____</div>      
           <b>RUSS</b> <input type="text" name="flowname" id="flowname"><br>
         <a href="http://www.fips.ru/cdfi/fips.dll?ty=29&docid=" id="link">Go</a> <i>ex: 700019</i> or <i>2018705302</i>
       <!-- This is how to include the Javascript code directly to your HTML -->
@@ -278,7 +486,8 @@
             link.href = "http://www.fips.ru/cdfi/fips.dll?ty=29&docid=" + this.value + "&ki=TM&cy=RU";
           }
       </script></td>
-<td style="width: 25%;"><b>SKOR</b> <input type="text" name="skornr" id="skornr"><br>
+<td style="width: 25%;"><div>_____</div>
+      <b>SKOR</b> <input type="text" name="skornr" id="skornr"><br>
         <a href="http://link.kipris.or.kr/link/main/Biblio.jsp?reg_key=5BpjNrtjRsaQhyqmZ30AmQ%3D%3D&APPLNO=" id="linkskor">Go</a> <i>ex: 4020210072120</i>
          <!-- This is how to include the Javascript code directly to your HTML -->
       <script>
@@ -292,7 +501,6 @@
           }
       </script></td>
 <td style="width: 25%;"><div>_____</div>
-
       <b>SLOV</b> <input type="text" name="SLOVnr" id="SLOVnr"><br>
         <a href="https://www2.uil-sipo.si/ds1.htm?A=107002&Q=NUM%3D" id="linkSLOV">Go</a> <i>ex: 201170387</i>
          <!-- This is how to include the Javascript code directly to your HTML -->
@@ -306,11 +514,7 @@
             link.href = "https://www2.uil-sipo.si/ds1.htm?A=107002&Q=NUM%3D" + this.value;
           }
       </script></td>
-</tr>
-<tr>
-<td style="width: 25%;"> <div>_____</div>
-        
-
+<td style="width: 25%;"><div>_____</div>        
       <b>SLRE</b> <input type="text" name="slrenr" id="slrenr"><br>
         <a href="https://wbr.indprop.gov.sk/WebRegistre/OchrannaZnamka/Detail/" id="linkslre">Go</a> <i>ex: 1007-2009</i>
          <!-- This is how to include the Javascript code directly to your HTML -->
@@ -324,8 +528,9 @@
             link.href = "https://wbr.indprop.gov.sk/WebRegistre/OchrannaZnamka/Detail/" + this.value;
           }
       </script></td>
-<td style="width: 25%;"><div>_____</div>
-      
+</tr>
+<tr>
+<td style="width: 25%;"><div>_____</div>      
       <b>SPAI</b> <input type="text" name="SPAInr" id="SPAInr"><br>
         <a href="http://www.oepm.es/en/signos_distintivos/resultados_expediente.html?mod=M&exp=" id="linkSPAI">Go</a> <i>ex: 4174368</i>
          <!-- This is how to include the Javascript code directly to your HTML -->
@@ -340,7 +545,6 @@
           }
       </script></td>
 <td style="width: 25%;"><div>_____</div>
-
         <b>SSCN</b> <input type="text" name="SSCNnr" id="SSCNnr"><br>
         <a href="http://www.oepm.es/en/signos_distintivos/resultados_expediente.html?mod=N&exp=" id="linkSSCN">Go</a> <i>ex: 0442388</i>
          <!-- This is how to include the Javascript code directly to your HTML -->
@@ -354,8 +558,7 @@
             link.href = "http://www.oepm.es/en/signos_distintivos/resultados_expediente.html?mod=N&exp=" + this.value;
           }
       </script></td>
-<td style="width: 25%;"><div>_____</div>
-      
+<td style="width: 25%;"><div>_____</div>      
           <b>SWPE</b> <input type="text" name="SWPEnr" id="SWPEnr"><br>
         <a href="https://www.swissreg.ch/srclient/en/tm/" id="linkSWPE">Go</a> <i>ex: 09170/2022</i> (comcode 1011)
          <!-- This is how to include the Javascript code directly to your HTML -->
@@ -369,10 +572,37 @@
             link.href = "https://www.swissreg.ch/srclient/en/tm/" + this.value;
           }
       </script></td>
+<td style="width: 25%;"><div>_____</div>      
+          <b>THAI</b> <input type="text" name="THAInr" id="THAInr"><br>
+        <a href="http://www.asean-tmview.org/tmview/get-detail?st13=TH500000" id="linkTHAI">Go</a> <i>ex: 00<u>1017734</u></i> or <i>210117839</i> 
+         <!-- This is how to include the Javascript code directly to your HTML -->
+      <script>
+          var input = document.getElementById("THAInr");
+
+          //this function gets called whenever the text in the text box changes
+          input.oninput = function() {
+            var link = document.getElementById("linkTHAI");
+            //here, this.value is the value of the input "THAInr"
+            link.href = "http://www.asean-tmview.org/tmview/get-detail?st13=TH500000" + this.value;
+          }
+      </script></td>
 </tr>
 <tr>
-<td style="width: 25%;"><div>_____</div>
+<td style="width: 25%;"><div>_____</div>      
+          <b>TURK</b> <input type="text" name="TURKnr" id="TURKnr"><br>
+        <a href="http://online.turkpatent.gov.tr/trademark-search/pub/trademark_detail/" id="linkTURK">Go</a> <i>ex: 2022-080540</i> (comcode 1011)
+         <!-- This is how to include the Javascript code directly to your HTML -->
+      <script>
+          var input = document.getElementById("TURKnr");
 
+          //this function gets called whenever the text in the text box changes
+          input.oninput = function() {
+            var link = document.getElementById("linkTURK");
+            //here, this.value is the value of the input "TURKnr"
+            link.href = "http://online.turkpatent.gov.tr/trademark-search/pub/trademark_detail/" + this.value + "?lang=en";
+          }
+      </script></td>
+<td style="width: 25%;"><div>_____</div>
       <b>UKRA</b> <input type="text" name="ukranr" id="ukranr"><br>
        <a href="https://sis.ukrpatent.org/en/search/simple/?form-TOTAL_FORMS=1&form-INITIAL_FORMS=1&form-MAX_NUM_FORMS=&form-0-param_type=1&form-0-value=" id="linkukra">Go</a> <i>ex: m201109103</i>
          <!-- This is how to include the Javascript code directly to your HTML -->
@@ -386,7 +616,8 @@
             link.href = "https://sis.ukrpatent.org/en/search/simple/?form-TOTAL_FORMS=1&form-INITIAL_FORMS=1&form-MAX_NUM_FORMS=&form-0-param_type=1&form-0-value=" + this.value;
           }
       </script></td>
-<td style="width: 25%;"> <b>USA</b> <input type="text" name="usanr" id="usanr"><br>
+<td style="width: 25%;"><div>_____</div>      
+      <b>USA</b> <input type="text" name="usanr" id="usanr"><br>
         <a href="https://tsdr.uspto.gov/#caseNumber=" id="linkusa">Go</a> <i>ex: 97089507</i>
          <!-- This is how to include the Javascript code directly to your HTML -->
       <script>
@@ -400,7 +631,6 @@
           }
       </script></td>
 <td style="width: 25%;"><div>_____</div>
-
       <b>WGER <i>(test)</i></b> <input type="text" name="wgernr" id="wgernr"><br>
         <a href="https://register.dpma.de/DPMAregister/marke/register/" id="linkwger">Go</a> <i>ex: 3020202452802</i>
          <!-- This is how to include the Javascript code directly to your HTML -->
@@ -414,19 +644,31 @@
             link.href = "https://register.dpma.de/DPMAregister/marke/register/" + this.value + "/DE?lang=en";
           }
       </script></td>
-<td style="width: 25%;"> <div style="color: #ffffff"> There is nothing here! </div> </td>
 </tr>
 <tr>
-<td style="width: 25%;">  </td>
-<td style="width: 25%;">  </td>
-<td style="width: 25%;">  </td>
-<td style="width: 25%;">  </td>
+<td style="width: 25%;"> </td>
+<td style="width: 25%;"> </td>
+<td style="width: 25%;"> </td>
+<td style="width: 25%;"> </td>
 </tr>
 <tr>
-<td style="width: 25%;">  </td>
-<td style="width: 25%;">  </td>
-<td style="width: 25%;">  </td>
-<td style="width: 25%;">  </td>
+<td style="width: 25%;"> </td>
+<td style="width: 25%;"> </td>
+<td style="width: 25%;"> </td>
+<td style="width: 25%;"> </td>
+</tr>
+<tr>
+<td style="width: 25%;"> </td>
+<td style="width: 25%;"> </td>
+<td style="width: 25%;"> </td>
+<td style="width: 25%;"><div style="color: #ffffff">There is nothing here!</div></td>
 </tr>
 </tbody>
 </table>
+<p>&nbsp;</p>
+
+      </body>
+      
+   
+      
+   </html>
