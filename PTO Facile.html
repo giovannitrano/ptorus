@@ -186,8 +186,8 @@
 </tr>
 <tr style="height: 18px;">
 <td style="width: 25%; height: 18px;"><div><div style="color: #FFFFFF">_____</div></div>
-      <b>CYPR</b> (Test) <input type="text" name="CYPRnr" id="CYPRnr"><br>
-        <a href="https://www.tmdn.org/tmview/welcome#/tmview/detail/CY502021000" id="linkCYPR">Go</a> <i>ex: 092093</i>
+      <b>CYPR</b> <input type="text" name="CYPRnr" id="CYPRnr"><br>
+        <a href="https://www.tmdn.org/tmview/welcome#/tmview/results?page=1&pageSize=30&criteria=C&applicationNumber=" id="linkCYPR">Go</a> <i>ex: 92093</i>
          <!-- This is how to include the Javascript code directly to your HTML -->
       <script>
           var input = document.getElementById("CYPRnr");
@@ -196,7 +196,7 @@
           input.oninput = function() {
             var link = document.getElementById("linkCYPR");
             //here, this.value is the value of the input "CYPRnr"
-            link.href = "https://www.tmdn.org/tmview/welcome#/tmview/detail/CY502021000" + this.value;
+            link.href = "https://www.tmdn.org/tmview/welcome#/tmview/results?page=1&pageSize=30&criteria=C&applicationNumber=" + this.value + "&offices=CY&territories=CY";
           }
       </script></td>
 <td style="width: 25%; height: 18px;"><div><div style="color: #FFFFFF">_____</div></div>
