@@ -7,7 +7,7 @@
 </div>
 </div>
 <div>
-<div style="text-align: center;">Please follow the number format in the examples and click the scroll button. <br />The results will open in a new tab. Enjoy! <br /><br />New: BRUN, CYPR, GEOR, LIEC, LITH, MACE, MALT, <br />MOLD, MONA, MONE, SEPE/SWED, SERB, ZAMB [24.08.2022] </div>
+<div style="text-align: center;">Please follow the number format in the examples and click the scroll button. <br />The results will open in a new tab. Enjoy! <br />New: KYRG [20.01.2023]<br />New: BRUN, CYPR, GEOR, LIEC, LITH, MACE, MALT, <br />MOLD, MONA, MONE, SEPE/SWED, SERB, ZAMB [24.08.2022] </div>
 <div style="text-align: center;">&nbsp;</div>
 </div>
 <table style="height: 288px; width: 100%; border-collapse: collapse;" border="0">
@@ -866,6 +866,21 @@
             var link = document.getElementById("linkZAMB");
             //here, this.value is the value of the input "ZAMBnr"
             link.href = "https://www.tmdn.org/tmview/welcome#/tmview/detail/ZM5000T20" + this.value;
+          }
+      </script></td>
+            </script></td>
+<td style="width: 25%; height: 18px;"><div><div style="color: #FFFFFF">_____</div></div>      
+          <b>KYRG</b> <input type="text" name="KYRGnr" id="KYRGnr"><br>
+        <a href="http://base.patent.kg/index.php?action=search_list&registration_nbr=" id="linkKYRG">Go</a> <i>ex: 16957</i>
+         <!-- This is how to include the Javascript code directly to your HTML -->
+      <script>
+          var input = document.getElementById("KYRGnr");
+
+          //this function gets called whenever the text in the text box changes
+          input.oninput = function() {
+            var link = document.getElementById("linkKYRG");
+            //here, this.value is the value of the input "KYRGnr"
+            link.href = "http://base.patent.kg/index.php?action=search_list&registration_nbr=" + this.value;
           }
       </script></td>
 <td style="width: 25%; height: 18px;">  </td>
