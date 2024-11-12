@@ -753,7 +753,7 @@
       </script></td>
 <td style="width: 25%; height: 18px;"><div><div style="color: #FFFFFF">_____</div></div>      
           <b>SWPE</b> <input type="text" name="SWPEnr" id="SWPEnr"><br>
-        <a href="https://www.swissreg.ch/srclient/en/tm/" id="linkSWPE">Go</a> <i>ex: 09170/2022</i> (comcode 1011)
+        <a href="https://www.tmdn.org/tmview/#/tmview/results?page=1&pageSize=30&criteria=C&applicationNumber=" id="linkSWPE">Go</a> <i>ex: 09170/2022</i> (comcode 1011)
          <!-- This is how to include the Javascript code directly to your HTML -->
       <script>
           var input = document.getElementById("SWPEnr");
@@ -762,7 +762,7 @@
           input.oninput = function() {
             var link = document.getElementById("linkSWPE");
             //here, this.value is the value of the input "SWPEnr"
-            link.href = "https://www.swissreg.ch/srclient/en/tm/" + this.value;
+            link.href = "https://www.tmdn.org/tmview/#/tmview/results?page=1&pageSize=30&criteria=C&applicationNumber=" + this.value + "&offices=CH&territories=CH";
           }
       </script></td>
 </tr>
