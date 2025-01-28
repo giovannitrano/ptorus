@@ -402,7 +402,7 @@
       </script></td>
 <td style="width: 25%; height: 18px;"><div><div style="color: #FFFFFF">_____</div></div>
       <b>ISRA</b> <input type="text" name="ISRAnr" id="ISRAnr"><br>
-        <a href="https://www.trademarks.justice.gov.il/TradeMarkSearch/ReportView?TMCaseNo=" id="linkISRA">Go</a> <i>ex: 340630</i>
+        <a href="https://www.tmdn.org/tmview/#/tmview/results?page=1&pageSize=30&criteria=C&applicationNumber=" id="linkISRA">Go</a> <i>ex: 376690</i>
          <!-- This is how to include the Javascript code directly to your HTML -->
       <script>
           var input = document.getElementById("ISRAnr");
@@ -411,7 +411,7 @@
           input.oninput = function() {
             var link = document.getElementById("linkISRA");
             //here, this.value is the value of the input "ISRAnr"
-            link.href = "https://www.trademarks.justice.gov.il/TradeMarkSearch/ReportView?TMCaseNo=" + this.value;
+            link.href = "https://www.tmdn.org/tmview/#/tmview/results?page=1&pageSize=30&criteria=C&applicationNumber=" + this.value + "&offices=IL&territories=IL";
           }
       </script></td>
 </tr>
